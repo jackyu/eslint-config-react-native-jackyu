@@ -82,7 +82,7 @@ module.exports = {
 
     // 錯誤
     'react/jsx-uses-react': 2,
-    'react/jsx-filename-extension': [2, { 'extensions': ['.tsx'] }],
+    'react/jsx-filename-extension': [2, { 'extensions': ['.js', 'jsx', '.tsx'] }],
     'react/jsx-uses-vars': 2,
     'react-native/no-unused-styles': 2, // Detect unused StyleSheet rules in React components
     'react-native/split-platform-components': 2, // Enforce using platform specific filenames when necessary
